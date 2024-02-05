@@ -9,12 +9,13 @@ gsap.registerPlugin(ScrollTrigger);
 const Photography = () => {
   useEffect(() => {
     gsap.to("#photographySection", {
-      y: 1500,
+      y: 0,
       scrollTrigger: {
         trigger: "#photographySection",
+        pin: true,
         scrub: true,
         start: "top top",
-        end: "+=3000",
+        end: "+=2000",
       },
     });
 
