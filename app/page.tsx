@@ -1,10 +1,11 @@
 "use client";
 import { useState, useEffect } from "react";
-import Rive from '@rive-app/react-canvas';
+import Rive from "@rive-app/react-canvas";
 
 import Image from "next/image";
 import Landing from "./components/Landing";
 import Photography from "./components/Photography";
+import PhotographyWide from "./components/PhotographyWide";
 import Programming from "./components/Programming";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
@@ -35,7 +36,7 @@ export default function Home() {
           <Photography></Photography>
         </div>
       )}
-  
+      {!showPhotography && <PhotographyWide></PhotographyWide>}
       <Programming></Programming>
       <Skills></Skills>
       <Contact></Contact>
