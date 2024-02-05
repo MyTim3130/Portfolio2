@@ -6,7 +6,7 @@ import { PinContainer } from "./ui/3d-pin";
 const Programming = () => {
   return (
     <>
-      <section className="h-fit w-screen grid grid-cols-1">
+      <section className="h-fit w-screen grid grid-cols-1 relative top-40">
         <div className="w-screen h-[50vh] flex justify-evenly items-center flex-col">
           <h2 className="text-5xl font-bold mb-10 mt-20">Programming</h2>
           <span className="w-5/6 md:w-[50vw] text-center mb-20">
