@@ -9,6 +9,7 @@ import PhotographyWide from "./components/PhotographyWide";
 import Programming from "./components/Programming";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import Nav from "./components/Nav";
 
 import gsap from "gsap";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
@@ -41,6 +42,15 @@ export default function Home() {
 
   return (
     <>
+    <Nav></Nav>
+          <video
+          autoPlay
+          loop
+          muted
+          className="-z-50 h-screen w-screen object-cover fixed opacity-50"
+        >
+          <source src="/images/texture.mp4" type="video/mp4" />
+        </video>
       <div className="App">
         <AnimatedCursor
           innerSize={20}
@@ -78,6 +88,7 @@ export default function Home() {
           <Skills></Skills>
           <Contact></Contact>
         </div>
+    
       </div>
     </>
   );
