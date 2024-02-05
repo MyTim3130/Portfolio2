@@ -7,6 +7,7 @@ import Landing from "./components/Landing";
 import Photography from "./components/Photography";
 import Programming from "./components/Programming";
 import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 export default function Home() {
   // State to track whether to show the Photography component
@@ -37,6 +38,7 @@ export default function Home() {
   
       <Programming></Programming>
       <Skills></Skills>
+      <Contact></Contact>
     </>
   );
 }
