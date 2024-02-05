@@ -28,8 +28,8 @@ const Landing = () => {
 
       <section className="w-screen h-[40vh] flex justify-center items-center text-center">
         <p className="w-[60vw] md:w-[30rem]">
-          Hello! I'm <b className="text-lg">Tim</b>, a 17-year-old enthusiast from Austria, deeply
-          engrossed in the world of <b className="text-lg">IT and Web Development</b>. I'm currently
+          Hello! I&apos;m <b className="text-lg">Tim</b>, a 17-year-old enthusiast from Austria, deeply
+          engrossed in the world of <b className="text-lg">IT and Web Development</b>. I&apos;m currently
           immersing myself in coding and design, eager to unlock <b className="text-lg">new
           possibilities</b> and innovative solutions in this dynamic field.
         </p>
