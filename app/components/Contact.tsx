@@ -6,7 +6,7 @@ const Contact = () => {
     <>
       <div className=" h-[40vh] z-20 w-screen absolute mt-14 bg-white wavesGradient"></div>
       <section className="h-screen w-screen flex justify-center items-center mt-72 flex-col" id="ContactMe">
-        <h2 className="absolute z-10 text-5xl lg:text-9xl font-extrabold mix-blend-difference mb-96">
+        <h2 className="absolute z-10 text-5xl lg:text-9xl font-extrabold mix-blend-difference mb-96 hoverCursor">
           CONTACT ME
         </h2>
         <video
@@ -19,18 +19,18 @@ const Contact = () => {
         </video>
         <div className="z-50 h-[40vh] flex flex-col justify-between relative top-52">
       <div className="flex flex-col md:flex-row h-[40vh] justify-evenly items-center relative md:top-10 md:h-fit w-screen z-50 bottom-40 font-bold text-xl">
-          <span>TIN.HAUSLKRAMPER@GMAIL.COM</span>
-          <span>+43 660 133 0906</span>
-          <span>
+          <span className="hoverCursor">TIN.HAUSLKRAMPER@GMAIL.COM</span>
+          <span className="hoverCursor">+43 660 133 0906</span>
+          <span className="hoverCursor">
             <a href="https://www.instagram.com/my__tim_/">INSTAGRAM</a>
           </span>
 
-          <span>
+          <span className="hoverCursor">
             <a href="https://discord.com/">DISCORD: mydim</a>
           </span>
         </div>
         <div className="w-screen h-20vh flex justify-center items-center z-50 bottom-5">
-          <span>
+          <span className="hoverCursor">
             <a href="https://github.com/MyTim3130">GITHUB</a>
           </span>
         </div>

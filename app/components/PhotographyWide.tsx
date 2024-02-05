@@ -86,13 +86,13 @@ const PhotographyWide = () => {
         <div className="h-[20vh] w-screen absolute z-50 photosGradientTop"></div>
         <div className=" w-screen sm:w-2/6 flex flex-col justify-evenly items-center mb-5 sm:mb-0 sm:ml-10">
           <h2
-            className="text-5xl md:text-6xl xl:text-7xl font-bold"
+            className="text-5xl md:text-6xl xl:text-7xl font-bold hoverCursor" 
             id="photographyTitle"
           >
             Photography
           </h2>
           {isWideScreen && (
-            <p className="photographyText">
+            <p className="photographyText hoverCursor">
               Photography has always been more than just a hobby to me;
               it&apos;s been a lifelong passion. From capturing the simplest
               moments to exploring the depths of artistic expression through a
@@ -103,7 +103,7 @@ const PhotographyWide = () => {
           )}
 
           {isWideScreen && (
-            <div>
+            <div className="hoverCursor">
               <div>#Photoshop</div>
               <div>#Lightroom</div>
               <div>#Canon</div>

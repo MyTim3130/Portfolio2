@@ -11,12 +11,13 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 
 import gsap from "gsap";
-import {ScrollSmoother} from "gsap/ScrollSmoother";
+import { ScrollSmoother } from "gsap/ScrollSmoother";
+
+import AnimatedCursor from "react-animated-cursor";
 
 gsap.registerPlugin(ScrollSmoother);
 
 export default function Home() {
-
   // State to track whether to show the Photography component
   const [showPhotography, setShowPhotography] = useState(false);
 
@@ -40,6 +41,30 @@ export default function Home() {
 
   return (
     <>
+      <div className="App">
+        <AnimatedCursor
+          innerSize={20}
+          outerSize={50}
+          color="255, 255, 255"
+          outerAlpha={0.2}
+          innerScale={0.7}
+          outerScale={2}
+          clickables={[
+            "a",
+            'input[type="text"]',
+            'input[type="email"]',
+            'input[type="number"]',
+            'input[type="submit"]',
+            'input[type="image"]',
+            "label[for]",
+            "select",
+            "textarea",
+            "button",
+            ".link",
+            '.hoverCursor'
+          ]}
+        />
+      </div>
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <Landing></Landing>

@@ -8,8 +8,8 @@ const Programming = () => {
     <>
       <section className="h-fit w-screen grid grid-cols-1 relative top-40">
         <div className="w-screen h-[50vh] flex justify-evenly items-center flex-col">
-          <h2 className="text-5xl font-bold mb-10 mt-20">Programming</h2>
-          <span className="w-5/6 md:w-[50vw] text-center mb-20">
+          <h2 className="text-5xl font-bold mb-10 mt-20 hoverCursor">Programming</h2>
+          <span className="w-5/6 md:w-[50vw] text-center mb-20 hoverCursor">
           I&apos;ve been captivated by programming for nearly seven years,
             with a special love for web development. This field, with its
             endless potential for creativity and innovation, has always been
@@ -23,7 +23,7 @@ const Programming = () => {
             
           <PinContainer
             title="space-portfolio.com"
-            className="bg-[#c4aaff] rounded-xl"
+            className="bg-[#c4aaff] rounded-xl hoverCursor"
           >
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
@@ -40,7 +40,7 @@ const Programming = () => {
 
           <PinContainer
             title="???"
-            className="bg-[#c4aaff] rounded-xl"
+            className="bg-[#c4aaff] rounded-xl hoverCursor"
           >
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
@@ -57,7 +57,7 @@ const Programming = () => {
 
           <PinContainer
             title="derDümmsteFliegt.com"
-            className="bg-[#c4aaff] rounded-xl"
+            className="bg-[#c4aaff] rounded-xl hoverCursor"
           >
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
@@ -74,7 +74,7 @@ const Programming = () => {
 
           <PinContainer
             title="snowLeopards.com"
-            className="bg-[#c4aaff] rounded-xl"
+            className="bg-[#c4aaff] rounded-xl hoverCursor"
           >
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
