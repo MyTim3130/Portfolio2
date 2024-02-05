@@ -86,10 +86,12 @@ const Photography = () => {
 
       
       <p className="w-[90vw]">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est ducimus
-          debitis tempore nemo omnis inventore commodi exercitationem minima,
-          nam sint sunt beatae pariatur quod, excepturi voluptate voluptates
-          quo? Delectus, dolores.
+      Photography has always been more than just a hobby to me;
+              it&apos;s been a lifelong passion. From capturing the simplest
+              moments to exploring the depths of artistic expression through a
+              lens, every click has been a step in my journey of discovery and
+              joy. It&apos;s a way to see the world, to freeze time, and to tell
+              stories without words.
         </p>
         </div>
     </>
