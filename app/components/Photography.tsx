@@ -85,7 +85,7 @@ const Photography = () => {
       <div className="w-screen h-fit flex justify-center items-center">
 
       
-      <p className="relative top-[70vh] w-[90vw]">
+      <p className="w-[90vw]">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est ducimus
           debitis tempore nemo omnis inventore commodi exercitationem minima,
           nam sint sunt beatae pariatur quod, excepturi voluptate voluptates
