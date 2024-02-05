@@ -15,7 +15,7 @@ const Photography = () => {
         pin: true,
         scrub: true,
         start: "top top",
-        end: "+=2000",
+        end: "+=1400",
       },
     });
 
