@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
       <div className=" h-[40vh] z-20 w-screen absolute mt-14 bg-white wavesGradient"></div>
-      <section className="h-screen w-screen flex justify-center items-center mt-72 flex-col" id="ContactMe">
+      <section className="h-[100dvh] w-screen flex justify-center items-center mt-72 flex-col" id="ContactMe">
         <h2 className="absolute z-10 text-5xl lg:text-9xl font-extrabold mix-blend-difference mb-96 hoverCursor">
           CONTACT ME
         </h2>
