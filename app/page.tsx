@@ -44,6 +44,8 @@ export default function Home() {
     <>
       <Nav></Nav>
       <video
+      controls={false}
+        disablePictureInPicture
         autoPlay
         loop
         muted
@@ -52,8 +54,7 @@ export default function Home() {
         <source src="/images/texture.mp4" type="video/mp4" />
       </video>
       {!showPhotography && (
-      <div className="App">
-       
+        <div className="App">
           <AnimatedCursor
             innerSize={20}
             outerSize={50}
@@ -76,8 +77,8 @@ export default function Home() {
               ".hoverCursor",
             ]}
           />
-        
-      </div>)}
+        </div>
+      )}
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <Landing></Landing>

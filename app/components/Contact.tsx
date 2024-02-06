@@ -10,6 +10,8 @@ const Contact = () => {
           CONTACT ME
         </h2>
         <video
+          controls={false}
+          disablePictureInPicture
           autoPlay
           loop
           muted
