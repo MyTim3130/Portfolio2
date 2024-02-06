@@ -22,7 +22,7 @@ const Programming = () => {
 
             
           <PinContainer
-            title="space-portfolio.com"
+            title="Space Themed Portfolio"
             className="bg-[#c4aaff] rounded-xl hoverCursor"
           >
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
@@ -56,7 +56,7 @@ const Programming = () => {
           </PinContainer>
 
           <PinContainer
-            title="derDümmsteFliegt.com"
+            title="Der Dümmste Fliegt"
             className="bg-[#c4aaff] rounded-xl hoverCursor"
           >
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
@@ -73,7 +73,7 @@ const Programming = () => {
           </PinContainer>
 
           <PinContainer
-            title="snowLeopards.com"
+            title="Snow Leopards"
             className="bg-[#c4aaff] rounded-xl hoverCursor"
           >
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
