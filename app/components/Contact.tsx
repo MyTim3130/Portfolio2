@@ -10,6 +10,7 @@ const Contact = () => {
           CONTACT ME
         </h2>
         <video
+        playsInline 
           controls={false}
           disablePictureInPicture
           autoPlay

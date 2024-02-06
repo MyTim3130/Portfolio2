@@ -44,6 +44,7 @@ export default function Home() {
     <>
       <Nav></Nav>
       <video
+      playsInline 
       controls={false}
         disablePictureInPicture
         autoPlay
