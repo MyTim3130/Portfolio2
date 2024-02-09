@@ -22,7 +22,7 @@ const Contact = () => {
         </video>
         <div className="z-50 h-[40vh] flex flex-col justify-between relative top-52">
       <div className="flex flex-col md:flex-row h-[40vh] justify-evenly items-center relative md:top-10 md:h-fit w-screen z-50 bottom-40 font-bold text-xl">
-          <span className="hoverCursor">TIN.HAUSLKRAMPER@GMAIL.COM</span>
+          <span className="hoverCursor">mail@timhausl.com</span>
           <span className="hoverCursor">+43 660 133 0906</span>
           <span className="hoverCursor">
             <a href="https://www.instagram.com/my__tim_/">INSTAGRAM</a>
